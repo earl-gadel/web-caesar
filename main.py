@@ -49,7 +49,7 @@ def encrypt():
 
 
     encrypted = rotate_string(text_field, rotation)
-    return encrypted
+    return "<h1>" + encrypted + "</h1>"
 
 
 
